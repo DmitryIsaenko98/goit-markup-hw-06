@@ -457,6 +457,28 @@
             </li>
           </ul>
         </div>
+        <div class="container-join-us">
+          <form>
+            <label class="join-us-subtitle" for="join"
+              >Підпишіться на розсилку</label
+            >
+            <div class="input-button-container">
+              <input
+                class="join-us-input"
+                id="join"
+                type="text"
+                name="join-us"
+                placeholder="E-mail"
+              />
+              <button class="subscribe-button" type="submit">
+                Підписатися
+                <svg class="send-icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -512,17 +534,19 @@
 
           <div class="checkbox-container">
             <input
-              class="chekbox-input .visually-hidden"
+              class="checkbox-input visually-hidden"
               id="conditions-checkbox"
               type="checkbox"
               name="conditions-checkbox"
             />
-            <svg class="checkbox-icon" width="16px" height="15px">
-              <use href="./images/icons.svg#icon-check"></use>
-            </svg>
-            <label class="chekbox-label" for="conditions-checkbox">
+            <span class="checkbox-box">
+              <svg class="checkbox-icon" width="16px" height="15px">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            <label class="checkbox-label" for="conditions-checkbox">
               Погоджуюся з розсилкою та приймаю
-              <a class="chekbox-link" href="#">Умови договору</a>
+              <a class="checkbox-link" href="#">Умови договору</a>
             </label>
           </div>
 
