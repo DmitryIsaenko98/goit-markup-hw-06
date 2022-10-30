@@ -906,6 +906,7 @@ img {
   border: 1px solid var(--modal-input-border);
   border-radius: 4px;
   transition: border-color 250ms var(--timing-function);
+  outline: none;
 }
 .form-input:focus {
   border-color: var(--accent-color);
@@ -930,6 +931,12 @@ img {
   height: 120px;
   margin-bottom: 20px;
   color: var(--primary-text-color);
+  outline: none;
+  transition: border-color 250ms var(--timing-function);
+}
+
+.form-textarea:focus {
+  border-color: var(--accent-color);
 }
 
 .chekbox-input {
